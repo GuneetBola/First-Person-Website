@@ -1,0 +1,72 @@
+.navbar {
+    min-height: 80px;
+}
+  
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+}
+  
+.navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+}
+  
+@media (min-width: 768px) {
+.navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+    }
+}
+.heading{ 
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height:100px;
+    width: 100%;
+    background-color:white;
+    color: black;
+    display:flex; 
+    flex-direction: row;
+    text-align: center;
+    
+}
+.column1{
+    float:left;
+    width:33.3%;
+}
+.column2{
+    width:33.3%;
+    margin:auto;
+}
+.column3{
+    float:right;
+    width:33.3%
+}
+.footer img{
+    width:40px;
+    height:auto;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.row{
+    background-color: #f2e6d9;
+}
+.card-header{
+    background-color: #ebd9c6;
+}
